@@ -1,0 +1,32 @@
+{
+  "name": "novaos-agent-sdk",
+  "version": "0.0.1",
+  "description": "TypeScript client library for connecting to and communicating with AI Agents that implement the Agent Communication Protocol (ACP)",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrbitronAI-Repo/novaos-agent-sdk-ts-public.git"
+  },
+  "homepage": "https://github.com/OrbitronAI-Repo/novaos-agent-sdk-ts-public",
+  "bugs": "https://github.com/OrbitronAI-Repo/novaos-agent-sdk-ts-public/issues",
+  "keywords": ["acp", "agent", "ai", "client", "sdk"],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
